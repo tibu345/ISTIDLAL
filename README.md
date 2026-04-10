@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ISTIDLAL
 
 ISTIDLAL in this repository is the **static GitHub Pages demo** version of the product.
@@ -176,4 +175,3 @@ The browser-only personalization surfaces still work using local `localStorage` 
 - `npm run start` is intentionally a guidance message, because this repository copy is not meant to run as a Node server deployment.
 =======
 # ISTIDLAL
->>>>>>> 9d3529dc25e61533469988ab26b8ed12df19a528
