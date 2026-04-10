@@ -1,0 +1,22 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="40" x2="1110" y2="635" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="180" y="118" width="840" height="439" rx="36" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="276" y="182" width="108" height="244" rx="32" fill="#E2E8F0" stroke="#94A3B8" stroke-width="3"/>
+  <rect x="306" y="210" width="48" height="138" rx="18" fill="url(#accent)"/>
+  <rect x="320" y="128" width="20" height="72" rx="10" fill="#94A3B8"/>
+  <path d="M604 228C548 228 502 274 502 330C502 386 548 432 604 432C660 432 706 386 706 330C706 274 660 228 604 228ZM604 190V470M466 330H742M511 237L697 423M697 237L511 423" stroke="#818CF8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="860" cy="254" r="44" fill="#38BDF8" fill-opacity="0.22"/>
+  <circle cx="906" cy="382" r="56" fill="#22C55E" fill-opacity="0.18"/>
+  <text x="180" y="603" fill="#0F172A" font-family="Arial, sans-serif" font-size="44" font-weight="700">Universal Influenza Vaccine</text>
+  <text x="180" y="640" fill="#475569" font-family="Arial, sans-serif" font-size="24">New human trial data, immune response signals, and next steps</text>
+</svg>

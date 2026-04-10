@@ -1,0 +1,71 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+
+  <path
+    d="M118 366C153 325 198 304 256 304C314 304 359 325 394 366"
+    stroke="url(#track)"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+  <circle cx="138" cy="366" r="15" fill="#DFFFF4"/>
+  <circle cx="256" cy="304" r="17" fill="#96E8CF"/>
+  <circle cx="374" cy="366" r="15" fill="#DFFFF4"/>
+
+  <rect x="112" y="96" width="288" height="212" rx="56" fill="url(#frame)"/>
+  <rect x="112" y="96" width="288" height="212" rx="56" stroke="rgba(255,255,255,0.16)"/>
+
+  <rect x="146" y="132" width="220" height="136" rx="32" fill="#0B2327"/>
+  <circle cx="256" cy="200" r="46" fill="url(#screenCore)"/>
+  <path
+    d="M244 176.644C244 171.775 249.363 168.832 253.462 171.659L290.006 196.858C293.545 199.298 293.545 204.523 290.006 206.963L253.462 232.162C249.363 234.989 244 232.045 244 227.177V176.644Z"
+    fill="#F5FFFB"
+  />
+
+  <path
+    d="M188 122C208 102 231 92 256 92C281 92 304 102 324 122"
+    stroke="#87B9B2"
+    stroke-opacity="0.4"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  <path
+    d="M168 152C194 130 224 118 256 118C288 118 318 130 344 152"
+    stroke="#6A9792"
+    stroke-opacity="0.34"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <rect x="166" y="286" width="88" height="10" rx="5" fill="#C5DBD8"/>
+  <rect x="264" y="286" width="42" height="10" rx="5" fill="#76918F"/>
+  <rect x="314" y="286" width="32" height="10" rx="5" fill="#58716F"/>
+
+  <path
+    d="M194 392C210 359 231 337 256 324C281 337 302 359 318 392"
+    stroke="#D8FFF1"
+    stroke-opacity="0.3"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+
+  <defs>
+    <linearGradient id="bg" x1="70" y1="58" x2="430" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163A3F"/>
+      <stop offset="0.6" stop-color="#0D292D"/>
+      <stop offset="1" stop-color="#081B1E"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="112" y1="96" x2="400" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#325E65"/>
+      <stop offset="1" stop-color="#17373C"/>
+    </linearGradient>
+    <linearGradient id="track" x1="118" y1="366" x2="394" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A837D"/>
+      <stop offset="0.5" stop-color="#E2FFF5"/>
+      <stop offset="1" stop-color="#4A837D"/>
+    </linearGradient>
+    <radialGradient id="screenCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 200) rotate(90) scale(46)">
+      <stop stop-color="#1E5B60"/>
+      <stop offset="1" stop-color="#10353A"/>
+    </radialGradient>
+  </defs>
+</svg>

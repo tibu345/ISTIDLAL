@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Lightbulb illustration</title>
+  <desc id="desc">A glowing lightbulb over a soft blue gradient background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="55%" stop-color="#0f3b4b" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.95" />
+      <stop offset="45%" stop-color="#fbbf24" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="bulbGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#fcd34d" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <circle cx="800" cy="390" r="300" fill="url(#glow)" />
+
+  <g opacity="0.2" stroke="#cbd5e1" fill="none">
+    <path d="M190 820c170-120 340-120 510 0" />
+    <path d="M900 820c140-90 290-90 450 0" />
+    <path d="M250 200c120 40 210 20 300-55" />
+    <path d="M1050 230c105 25 190 18 295-35" />
+  </g>
+
+  <g transform="translate(800 470)">
+    <path
+      d="M0-255c-124 0-225 100-225 225 0 77 38 145 97 186 30 22 52 49 62 80h132c10-31 32-58 62-80 59-41 97-109 97-186 0-125-101-225-225-225z"
+      fill="url(#bulbGlass)"
+      stroke="#fef3c7"
+      stroke-width="12"
+    />
+    <path
+      d="M-60 28c18-20 38-31 60-31s42 11 60 31"
+      fill="none"
+      stroke="#f59e0b"
+      stroke-linecap="round"
+      stroke-width="16"
+    />
+    <path
+      d="M-112-18c28 16 49 15 73-2 19-13 40-13 65 0 25 13 47 14 74-2"
+      fill="none"
+      stroke="#fef3c7"
+      stroke-linecap="round"
+      stroke-width="16"
+    />
+    <rect x="-82" y="236" width="164" height="62" rx="18" fill="url(#base)" />
+    <rect x="-74" y="292" width="148" height="42" rx="14" fill="url(#base)" />
+    <rect x="-58" y="334" width="116" height="36" rx="12" fill="#475569" />
+    <path d="M-70 255h140M-66 282h132M-56 309h112" stroke="#e2e8f0" stroke-linecap="round" stroke-width="8" />
+  </g>
+
+  <g stroke="#fde68a" stroke-linecap="round" stroke-width="14">
+    <path d="M800 90v70" />
+    <path d="M1042 160l-42 55" />
+    <path d="M1170 355l-66 12" />
+    <path d="M1070 600l-54-32" />
+    <path d="M558 160l42 55" />
+    <path d="M430 355l66 12" />
+    <path d="M530 600l54-32" />
+  </g>
+</svg>
