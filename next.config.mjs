@@ -16,3 +16,14 @@ const nextConfig = {
 };
 
 export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  basePath: '/ISTIDLAL',
+  assetPrefix: '/ISTIDLAL/',
+  images: {
+    unoptimized: true
+  }
+};
+
+module.exports = nextConfig;
