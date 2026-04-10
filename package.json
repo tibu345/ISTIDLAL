@@ -7,14 +7,10 @@
     "dev": "npm run clean && next dev",
     "dev:reset": "npm run clean && next dev",
     "build": "next build",
-<<<<<<< HEAD
     "export": "next build",
-=======
-     "export": "next build",
     "deploy": "gh-pages -d out",
->>>>>>> e01af5cfccfc296f920403738c84afe2f59825f4
     "start": "node -e \"console.log('This repository copy is a static GitHub Pages demo. Use npm run dev for local editing or serve the out directory with any static file server after npm run build.')\"",
-    "lint": "next lint",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.25",
