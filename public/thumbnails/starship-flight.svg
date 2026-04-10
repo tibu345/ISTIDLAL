@@ -1,0 +1,22 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.55" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="944" cy="118" r="54" fill="#E2E8F0" fill-opacity="0.85"/>
+  <path d="M148 539C286 466 366 432 533 442C723 454 792 556 1052 514V675H148V539Z" fill="#E2E8F0" fill-opacity="0.18"/>
+  <path d="M594 154L680 391L631 391L665 505L561 505L595 391L546 391L594 154Z" fill="#E5E7EB"/>
+  <path d="M595 505C570 551 540 596 513 633C560 621 617 621 676 633C645 587 619 545 595 505Z" fill="url(#flame)"/>
+  <path d="M559 220L629 220" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M552 274L636 274" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+  <text x="150" y="600" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Starship Flight 5</text>
+  <text x="150" y="638" fill="#DBEAFE" font-family="Arial, sans-serif" font-size="24">Full mission breakdown, stage performance, and recovery analysis</text>
+</svg>

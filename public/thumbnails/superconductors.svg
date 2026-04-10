@@ -1,0 +1,21 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1080" y2="635" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(602 334) rotate(90) scale(220 360)">
+      <stop stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="153" y="106" width="894" height="463" rx="32" fill="#0B1220" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="600" cy="338" rx="280" ry="170" fill="url(#glow)"/>
+  <circle cx="392" cy="257" r="88" fill="#38BDF8" fill-opacity="0.9"/>
+  <circle cx="810" cy="422" r="76" fill="#818CF8" fill-opacity="0.9"/>
+  <path d="M249 423C329 365 399 337 457 340C530 344 563 403 620 404C688 405 729 302 810 301C873 300 932 356 952 423" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M275 463H932" stroke="#64748B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <text x="160" y="604" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Room Temperature Superconductors</text>
+  <text x="160" y="642" fill="#94A3B8" font-family="Arial, sans-serif" font-size="24">Critical review of experiments, replication, and signal quality</text>
+</svg>
