@@ -1,4 +1,3 @@
-const isProd = process.env.NODE_ENV === "production";
 const repo = "ISTIDLAL";
 
 /** @type {import('next').NextConfig} */
@@ -8,8 +7,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? `/${repo}` : "",
-  assetPrefix: isProd ? `/${repo}/` : "",
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
 };
 
 export default nextConfig;
