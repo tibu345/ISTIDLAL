@@ -1,5 +1,5 @@
-const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
-const basePath = process.env.GITHUB_ACTIONS && repoName ? `/${repoName}` : "";
+const isProd = process.env.NODE_ENV === "production";
+const repo = "ISTIDLAL";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,22 +8,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath,
-  assetPrefix: basePath || undefined,
-  env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
-  },
+  basePath: isProd ? `/${repo}` : "",
+  assetPrefix: isProd ? `/${repo}/` : "",
 };
 
 export default nextConfig;
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  basePath: '/ISTIDLAL',
-  assetPrefix: '/ISTIDLAL/',
-  images: {
-    unoptimized: true
-  }
-};
-
-module.exports = nextConfig;
